@@ -1,24 +1,31 @@
 import './style.css'
-import typescriptLogo from './typescript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.ts'
+// import { Pokemon } from "./pokemon/types.ts";
+// import { fetchAllPokemons } from "./pokemon/pokemon.service.ts";
 
-document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://www.typescriptlang.org/" target="_blank">
-      <img src="${typescriptLogo}" class="logo vanilla" alt="TypeScript logo" />
-    </a>
-    <h1>Vite + TypeScript</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite and TypeScript logos to learn more
-    </p>
+// const list = document.querySelector<HTMLDivElement>('#list')!
+// const info = document.querySelector<HTMLDivElement>('#info')!
+// const search = document.querySelector<HTMLInputElement>('#search')!
+// const pageTitle = document.querySelector<HTMLTitleElement>('#page-title')!
+
+/** @First
+`<div class="flex items-center cursor-pointer hover:bg-red-100" id="${pokemon.name}">
+    <img class="w-8" src="${pokemon.sprites.front_default}" alt="${pokemon.name}" />
+    <div class="text-xs capitalize">${pokemon.name}</div>
   </div>
 `
+***/
 
-setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
+/** @Second
+  `
+  <img src="${selectedPokemonSignal.get()?.sprites.front_default}" alt="${selectedPokemonSignal.get()?.name}" />
+  <h2 class="text-xl font-bold h-10">${selectedPokemonSignal.get()?.name}</h2>
+  <div>Height - ${selectedPokemonSignal.get()?.height}</div>
+  <div>Weight - ${selectedPokemonSignal.get()?.weight}</div>
+ `
+ * ***/
+
+function init() {
+    // Start your code here
+}
+
+init()

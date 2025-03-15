@@ -4,7 +4,6 @@ import './style.css'
 
 // const list = document.querySelector<HTMLDivElement>('#list')!
 // const info = document.querySelector<HTMLDivElement>('#info')!
-// const search = document.querySelector<HTMLInputElement>('#search')!
 // const pageTitle = document.querySelector<HTMLTitleElement>('#page-title')!
 
 /** @First
@@ -17,10 +16,10 @@ import './style.css'
 
 /** @Second
   `
-  <img src="${selectedPokemonSignal.get()?.sprites.front_default}" alt="${selectedPokemonSignal.get()?.name}" />
-  <h2 class="text-xl font-bold h-10">${selectedPokemonSignal.get()?.name}</h2>
-  <div>Height - ${selectedPokemonSignal.get()?.height}</div>
-  <div>Weight - ${selectedPokemonSignal.get()?.weight}</div>
+  <img src="${selectedPokemon.get()?.sprites.front_default}" alt="${selectedPokemon.get()?.name}" />
+  <h2 class="text-xl font-bold h-10">${selectedPokemon.get()?.name}</h2>
+  <div>Height - ${selectedPokemon.get()?.height}</div>
+  <div>Weight - ${selectedPokemon.get()?.weight}</div>
  `
  * ***/
 

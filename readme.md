@@ -7,10 +7,10 @@
 5. Open ` http://localhost:5173/` in your browser.
 6. Happy Hacking! 🚀
 
-
 ### Useful Links 🔗
+
 https://refactoring.guru/design-patterns/observer
 https://frontendmasters.com/blog/vanilla-javascript-reactivity/
 https://www.patterns.dev/vanilla/observer-pattern/
 https://eisenbergeffect.medium.com/a-tc39-proposal-for-signals-f0bedd37a335
-https://www.linkedin.com/pulse/ui-architects-guide-fine-grained-reactivity-web-przemys%C5%82aw-ka%C5%82ka-3ui8e/
+https://www.linkedin.com/pulse/ui-architects-guide-fine-grained-reactivity-web-przemys%C5%82aw-ka%C5%82ka-3ui8

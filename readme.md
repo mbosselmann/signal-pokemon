@@ -1,3 +1,9 @@
+### Social Developers Conference
+
+This is the final version of trying out signals during the social developers conference 2025.
+
+**Credits:** [Lotto 24 - signal.ts](https://github.com/Lotto24/signal-ts)
+
 ### How to Run 🏃‍♂️
 
 1. Make sure you have node installed on your machine.
